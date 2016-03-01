@@ -81,7 +81,7 @@ static CLASS: JSClass = JSClass {
     hasInstance: None,
     construct: None,
     trace: None,
-    reserved: [0 as *mut _; 25],
+    reserved: [0 as *mut _; 26],
 };
 
 static PROTOTYPE_CLASS: JSClass = JSClass {
@@ -99,7 +99,7 @@ static PROTOTYPE_CLASS: JSClass = JSClass {
     hasInstance: None,
     construct: None,
     trace: None,
-    reserved: [0 as *mut _; 25]
+    reserved: [0 as *mut _; 26]
 };
 
 const METHODS: &'static [JSFunctionSpec] = &[

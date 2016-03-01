@@ -12,5 +12,5 @@ git = "https://github.com/servo/rust-mozjs"
 features = ["debugmozjs"]
 
 [dependencies]
-libc = "0.1"
+libc = "0.2"
 env_logger = "0.3"
